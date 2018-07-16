@@ -1,1 +1,20 @@
-importjava.util.Scanner;
+import java.util.Scanner;
+	public class Calculadora{
+		public static void main (String[] args){
+			String valor;
+			int sav;
+			int res;
+			Scanner x = new Scanner(System.in);
+			System.out.print("Valor pra cacular");
+			valor = x.nextLine();
+			valor.toCharArray();
+			for(int i = 0;i<valor.lenght;i++){
+				if((valor[i].contains("+"))||(valor[i].contains("-"))||(valor[i].contains("*"))||(valor[i].contains("/"))){
+					res = i * 2;
+					sav = (i - (rest/2));
+					System.out.println(sav);
+				}
+			}
+			//Integer.parseInt(String.valueOf());
+		}
+	}
