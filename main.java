@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity{
        botao_C.setOnClickListener(new OnClickListener() {
            public void onClick(View v) {
                campotexto.setText(" ");
-			flag = false;
+		flag = false;
                for(int i = 0;i<10;i++){
                    valor[i] = 0;
                }
